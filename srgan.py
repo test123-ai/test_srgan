@@ -6,6 +6,10 @@ from tensorlayerx.nn import Linear, MaxPool2d
 W_init = tlx.initializers.TruncatedNormal(stddev=0.02)
 G_init = tlx.initializers.TruncatedNormal(mean=1.0, stddev=0.02)
 
+"""
+TEST
+author: Park sojung
+"""
 
 class ResidualBlock(Module):
 
